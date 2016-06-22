@@ -1,0 +1,32 @@
+
+<html>   
+ <head>     
+  <TITLE> New document．nbsp;</TITLE>     
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="./todolist.css">   
+  <script language="javascript" type="text/javascript" src="js/jquery-1.11.1.min.js"></script> 
+   <script language="javascript" type="text/javascript" src="js/todolist.js"></script>                
+ </head>     
+    
+ <BODY>
+  <div class="top">
+   <form>
+    ToDoList&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <input type="text" name="input" id="input"/>
+    <button type="button" id="addbt">Click me!</button>
+   </form>
+  </div>
+  <div class="middle">
+   <div>
+    <div><span>正在进行</span><span class="number1"></span></div>
+    <table id="table1">
+    </table>
+   </div>
+   <div>
+    <div><span>已经完成</span><span class="number2"></span></div>
+    <table id="table2">
+    </table>
+   </div>
+  </div>  
+ </BODY>
+</html>
